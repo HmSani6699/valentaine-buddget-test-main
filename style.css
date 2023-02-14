@@ -1,27 +1,31 @@
-.box{
-    width:220px;
-    height: 230px;
-    /* border: 1px solid gray; */
+.box {
+    width: 220px;
+    height: 265px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 4px 4px 8px gray;
+    box-shadow: 4px 3px 6px gray;
+    margin-left: 20px;
+
 }
-.buy-btn{
-    padding:10px 10px;
+
+.buy-btn {
+    padding: 10px 10px;
     border: none;
     background-color: rgb(133, 15, 125);
     border-radius: 10px;
     color: white;
-    margin-top:5px;
+    margin-top: 5px;
 }
-.money-tracker{
-    width:400px;
-    height:100vh;
+
+.money-tracker {
+    width: 400px;
+    height: 500px;
     border: 1px solid gray;
     padding: 20px;
 }
-.logo{
-    width:80px;
+
+.logo {
+    width: 80px;
     height: 70px;
 
 }

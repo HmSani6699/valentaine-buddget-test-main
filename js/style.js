@@ -50,3 +50,17 @@ function sum() {
     }
     setElementValue('total', total);
 }
+
+
+//discount 
+function handlePromoCode() {
+    const promoCodeFiled = inputValue('promo-code');
+    if (promoCodeFiled == 101) {
+        const total = getElementValue('total');
+        document.getElementById('all-total').innerText = total - (total * 0.1)
+    }
+    else {
+        alert('invalid coupon code')
+    }
+
+}
